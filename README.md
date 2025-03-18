@@ -1,7 +1,7 @@
 # EX01 Developing a Simple Webserver
 ## Date:19.03.2025
 ## REG NO 212224040272
-## AIM:To develop a simple webserver to create HTML headings are defined with the <h1> to <h6> tags.
+## AIM:To develop a simple webserver to create HTML headings are defined with the h1 to h6 tags.
 
 ## DESIGN STEPS:
 ### Step 1: 
@@ -59,8 +59,8 @@ httpd.serve_forever()
 ~~~
 
 # output:
-Screenshot 2025-03-18 134903.png
-Screenshot 2025-03-18 134946.png
+env1/Screenshot 2025-03-18 134903.png
+env1/Screenshot 2025-03-18 134946.png
 
 
 ## RESULT:
