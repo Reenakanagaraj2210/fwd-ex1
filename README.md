@@ -59,10 +59,10 @@ httpd.serve_forever()
 ~~~
 
 # output:
-env1/Screenshot 2025-03-18 134903.png
-env1/Screenshot 2025-03-18 134903.png
-env1/Screenshot 2025-03-18 134903.png
-env1/Screenshot 2025-03-18 134946.png
+![Screenshot 2025-03-18 134946](https://github.com/user-attachments/assets/f81dec15-d10f-45ef-9748-0728ddb8aea1)
+
+![Screenshot 2025-03-18 134903](https://github.com/user-attachments/assets/e8666201-d04c-4e4b-967a-7f7018dc2caa)
+
 
 
 ## RESULT:
