@@ -69,9 +69,9 @@ print("my webserver is running...")
 httpd.serve_forever()
 ```
 ## output
-![(2.png)]
-![(1.png)]
 
+![Image 1](1.png)  
+![Image 2](2.png)
 
 ## RESULT:
 
