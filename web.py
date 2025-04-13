@@ -1,11 +1,22 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TCP/IP Protocol Suite</title>
+</head>
+<body>
+    <h1>List of Protocols in TCP/IP Protocol Suite</h1>
+    <ul>
+        <li>Application Layer: HTTP, FTP, SMTP, DNS, Telnet</li>
+        <li>Transport Layer: TCP, UDP</li>
+        <li>Internet Layer: IP, ICMP, IGMP, ARP</li>
+        <li>Network Access Layer: Ethernet, Wi-Fi, PPP</li>
+    </ul>
+</body>
+</html>
+
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
