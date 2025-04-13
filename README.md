@@ -35,15 +35,26 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-~~~
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TCP/IP Protocol Suite</title>
+</head>
+<body>
+    <h1>List of Protocols in TCP/IP Protocol Suite</h1>
+    <ul>
+        <li>Application Layer: HTTP, FTP, SMTP, DNS, Telnet</li>
+        <li>Transport Layer: TCP, UDP</li>
+        <li>Internet Layer: IP, ICMP, IGMP, ARP</li>
+        <li>Network Access Layer: Ethernet, Wi-Fi, PPP</li>
+    </ul>
+</body>
+</html>
+
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -56,14 +67,13 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-~~~
+```
 
-# output:
+## output:
 
-![Screenshot 2025-03-18 134903](https://github.com/user-attachments/assets/3b6d53ef-d67c-4a3c-a190-b68ddd0b26e2)
+![Screenshot 2025-04-12 213102](https://github.com/user-attachments/assets/b6379e1a-34ee-439f-acb6-eddabd806250)
 
-
-![Screenshot 2025-03-18 134946](https://github.com/user-attachments/assets/b2ee4798-29cb-451b-9343-556284568b27)
+![Screenshot 2025-04-12 213005](https://github.com/user-attachments/assets/9dbcfa5e-e061-4065-b29c-92b6c15907f8)
 
 
 
